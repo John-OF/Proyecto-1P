@@ -1,0 +1,66 @@
+.card {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: #212529;
+  padding: 20px 0;
+  text-align: center;
+  height: 155px;
+  margin-top: 1px;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+p{
+  color:aliceblue;
+}
+.footer .logop img {
+  align-self: center;
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+

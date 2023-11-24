@@ -1,0 +1,29 @@
+.logo{
+    width: 25%;
+    height: 25%;
+    clip-path: circle(50%);
+}
+
+.footer {
+    position: relative; 
+    width: 100%;
+    background-color: #212529;
+    padding: 20px 0;
+    text-align: center;  
+    margin-top: 1px; 
+}
+  
+@media (max-width: 768px) {
+    
+}
+  
+p{
+    color:aliceblue;
+}
+.footer .logop img {
+    align-self: center;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}

@@ -1,0 +1,107 @@
+<br>
+<div class="container mt-5">
+    <div class="header">
+        <p class="parr">Información Empresas</p>
+        <button type="button" class="btn btn-success btn-sm" (click)="cambioPag('/agregarEmpresa')">
+            <i class="bi bi-plus-circle-dotted"></i> Empresas
+          </button>
+    </div>
+    <div class="buttons">
+      <button type="button" class="btn btn-primary" >
+        <i class="bi bi-clipboard"></i> Copiar
+      </button>
+
+      <button type="button" class="btn btn-primary" >
+        <i class="bi bi-file-earmark-pdf"></i> PDF
+      </button>
+    </div>
+    <br>
+        <div class="d-flex justify-content-center mt-5">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">VER</th>
+                        <th scope="col">RUC</th>
+                        <th scope="col">Razón social</th>
+                        <th scope="col">Nombre comercial</th>
+                        <th scope="col">Acción Sucursal</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container>    
+                        <tr>               
+                          <td><i class="bi bi-info-square-fill"></i></td>
+                          <td>7894561230</td>
+                          <td>Erick Mendoza</td>
+                          <td>Empresa Mendoza</td>
+                          <td><button type="button" class="btn btn-success btn-sm custom-btn" (click)="cambioPag('/sucursales')"><i class="bi bi-list-ul"></i> Sucursales</button></td>
+                          <td><span class="badge text-bg-danger">No activo</span></td>
+                          <td>valor</td>
+                        </tr>  
+                      </ng-container>
+                </tbody>
+                <tbody>
+                  <ng-container>    
+                      <tr>               
+                        <td><i class="bi bi-info-square-fill"></i></td>
+                        <td>0953104296001</td>
+                        <td>John Orellana</td>
+                        <td>Empresa Orellana</td>
+                        <td><button type="button" class="btn btn-success btn-sm custom-btn" (click)="cambioPag('/sucursales')"><i class="bi bi-list-ul"></i> Sucursales</button></td>
+                        <td><span class="badge text-bg-success">Activo</span></td>
+                        <td>valor</td>
+                      </tr>  
+                    </ng-container>
+              </tbody>
+                <tbody>
+                    <ng-container>    
+                        <tr>               
+                          <td><i class="bi bi-info-square-fill"></i></td>
+                          <td>4679874561</td>
+                          <td>Nathanael Ortega</td>
+                          <td>Empresa Ortega</td>
+                          <td><button type="button" class="btn btn-success btn-sm custom-btn" (click)="cambioPag('/sucursales')"><i class="bi bi-list-ul"></i> Sucursales</button></td>
+                          <td><span class="badge text-bg-success">Activo</span></td>
+                          <td>valor</td>
+                        </tr>  
+                      </ng-container>
+                </tbody>
+                <tbody>
+                  <ng-container>    
+                      <tr>               
+                        <td><i class="bi bi-info-square-fill"></i></td>
+                        <td>4679874561</td>
+                        <td>Edison Pilamunga</td>
+                        <td>Empresa Pilamunga</td>
+                        <td><button type="button" class="btn btn-success btn-sm custom-btn" (click)="cambioPag('/sucursales')"><i class="bi bi-list-ul"></i> Sucursales</button></td>
+                        <td><span class="badge text-bg-success">Activo</span></td>
+                        <td>valor</td>
+                      </tr>  
+                    </ng-container>
+              </tbody>
+              <tbody>
+                <ng-container>    
+                    <tr>               
+                      <td><i class="bi bi-info-square-fill"></i></td>
+                      <td>7894561230</td>
+                      <td>Luis Ricaurte</td>
+                      <td>Empresa Ricaurte</td>
+                      <td><button type="button" class="btn btn-success btn-sm custom-btn" (click)="cambioPag('/sucursales')"><i class="bi bi-list-ul"></i> Sucursales</button></td>
+                      <td><span class="badge text-bg-danger">No activo</span></td>
+                      <td>valor</td>
+                    </tr>  
+                  </ng-container>
+            </tbody>
+            </table>
+        </div>
+        <h5>Mostrando registros del 1 al 5 de un total de 5 registros</h5>
+</div>
+
+<footer class="footer">
+  <div class="logop">
+    <img src="./assets/img/Logo.png" alt="Logo de la empresa">
+  </div>
+  <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+</footer>

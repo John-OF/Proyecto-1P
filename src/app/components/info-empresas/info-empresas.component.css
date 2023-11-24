@@ -1,0 +1,60 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.parr {
+  margin: 0;
+  font-style:inherit;
+  font-size: x-large;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  margin-right: 10px;
+}
+.custom-btn {
+  font-size: 13px;
+  padding: 5px 13px;
+}
+.container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.footer {
+  position: relative; 
+  width: 100%;
+  background-color: #212529;
+  padding: 20px 0;
+  text-align: center;
+  height: 155px;
+  margin-top: 15px; 
+}
+
+@media (max-width: 768px) {
+  
+}
+
+p{
+  color:aliceblue;
+}
+.footer .logop img {
+  align-self: center;
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}

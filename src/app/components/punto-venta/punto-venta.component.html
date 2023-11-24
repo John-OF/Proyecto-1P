@@ -1,0 +1,76 @@
+<br>
+<div class="container mt-5">
+    <div class="header">
+        <p class="pa">Punto de venta</p>
+    </div>
+    <div class="header">
+        <p class="pa">Nombre de la sucursal: Sucursal 001</p>
+        <button type="button" class="btn btn-success btn-sm" (click)="cambioPag('/agregarPunto')">
+            <i class="bi bi-plus-circle-dotted"></i> Punto de venta
+          </button>
+    </div>
+    <div class="buttons">
+        <button type="button" class="btn btn-primary" >
+            <i class="bi bi-clipboard"></i> Copiar
+        </button>
+        
+        <button type="button" class="btn btn-primary" >
+            <i class="bi bi-file-earmark-pdf"></i> PDF
+        </button>  
+    </div>
+        <div class="d-flex justify-content-center mt-5">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">CÓDIGO PUNTO VENTA</th>
+                        <th scope="col">DETALLE PUNTO VENTA</th>
+                        <th scope="col">COMPROBANTE PUNTO VENTA</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <ng-container>    
+                        <tr>               
+                          <td>101</td>
+                          <td>Producción</td>
+                          <td>Factura</td>
+                          <td><span class="badge text-bg-success">Activo</span></td>
+                          <td>valor</td>
+                        </tr>  
+                      </ng-container>
+                </tbody>
+                <tbody>
+                    <ng-container>    
+                        <tr>               
+                          <td>102</td>
+                          <td>Producción 2</td>
+                          <td>Factura</td>
+                          <td><span class="badge text-bg-success">Activo</span></td>
+                          <td>valor</td>
+                        </tr>  
+                      </ng-container>
+                </tbody>
+                <tbody>
+                    <ng-container>    
+                        <tr>               
+                          <td>103</td>
+                          <td>Producción Final</td>
+                          <td>Factura</td>
+                          <td><span class="badge text-bg-success">Activo</span></td>
+                          <td>valor</td>
+                        </tr>  
+                      </ng-container>
+                </tbody>
+            </table>
+        </div>
+        <h5>Mostrando registros del 1 al 3 de un total de 3 registros</h5>
+</div>
+
+<footer class="footer">
+    <div class="logop">
+      <img src="./assets/img/Logo.png" alt="Logo de la empresa">
+    </div>
+    <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+</footer>
+  

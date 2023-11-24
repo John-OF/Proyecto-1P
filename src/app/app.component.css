@@ -1,0 +1,24 @@
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand img {
+  margin-right: 5px;
+}
+
+.nav-link {
+  padding: 8px 15px; /* Ajusta el espaciado interno del botón */
+  margin: 0 5px; /* Espaciado entre botones */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.nav-link:hover {
+  /* Cambios al pasar el ratón */
+  background-color: rgba(255, 255, 255, 0.1); /* Color de fondo al pasar el ratón */
+  transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.nav-link i {
+  margin-right: 5px;
+}
+
